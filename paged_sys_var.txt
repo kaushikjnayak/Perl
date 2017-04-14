@@ -1,0 +1,65 @@
+---------------------  page   1    ------------------------
+ Global Scalar Variables
+
+    The Default Scalar Variable: $_
+    The Program Name: $0
+    The User ID: $< and $>
+    The Group ID: $( and $)
+    The Version Number: $]
+    The Input Line Separator: $/
+    The Output Line Separator: $\
+    The Output Field Separator: $,
+    The Array Element Separator: $"
+    The Number Output Format: $#
+    The eval Error Message: $@
+    The System Error Code: $?
+    The System Error Message: $!
+    The Current Line Number: $.
+    Multiline Matching: $*
+    The First Array Subscript: $[
+    Multidimensional Associative Arrays and the $; Variable
+    The Word-Break Specifier: $:
+    The Perl Process ID: $$
+    The Current Filename: $ARGV
+    The Write Accumulator: $^A
+    The Internal Debugging Value: $^D
+    The System File Flag: $^F
+    Controlling File Editing Using $^I
+    The Format Form-Feed Character: $^L
+    Controlling Debugging: $^P
+    The Program Start Time: $^T
+    Suppressing Warning Messages: $^W
+    The $^X Variable
+
+Pattern System Variables
+
+    Retrieving Matched Subpatterns
+    Retrieving the Entire Pattern: $&
+    Retrieving the Unmatched Text: the $` and $' Variables
+    The $+ Variable
+
+File System Variables
+
+    The Default Print Format: $~
+    Specifying Page Length: $=
+    Lines Remaining on the Page: $-
+    The Page Header Print Format: $^
+    Buffering Output: $|
+    The Current Page Number: $%
+
+Array System Variables
+
+    The @_ Variable
+    The @ARGV Variable
+    The @F Variable
+    The @INC Variable
+    The %INC Variable
+    The %ENV Variable
+    The %SIG Variable
+
+Built-In File Variables
+---------------------  page   2    ------------------------
+
+    STDIN, STDOUT, and STDERR
+    ARGV
+    DATA

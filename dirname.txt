@@ -1,0 +1,7 @@
+perl -nle '@a = split(m#/#,$_);print "/". join("/",splice(@a,1,$#a-1))' file_list-20130513.txt
+awk -F "/" '{for (i=1;i < NF - 1;i++)x = x""$i""FS;print x;x=""}' file_list-20130513.txt
+
+
+basename
+perl -nle '@a = split(m#/#,$_);print  join("/",splice(@a,$#a))' file_list-20130513.txt
+awk -F "/"  '{print $NF}' file_list-20130513.txt

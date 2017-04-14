@@ -1,0 +1,1 @@
+grep -l -e AMLSR -e AMLDR * |grep -v _201 | xargs -I {} perl -pi -e 's#^echo(.*?)AMLSR\s+(/.*)#$&\necho$1AMLNW $2#g' {}
