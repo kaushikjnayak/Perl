@@ -1,4 +1,6 @@
 #!/usr/bin/perl
+
+#########  2 DIMENSIONAL Array using @ operator.###
 use strict;
 use warnings;
 
