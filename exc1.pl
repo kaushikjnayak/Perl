@@ -1,6 +1,5 @@
 #!/usr/bin/perl
-
-
+#use 5.18.0;
 print "\n PLEASE INPUT NUMBERS. ENTER QUIT/quit to quit\n:";
 while ($input = <STDIN>) {
 	chomp($input);
